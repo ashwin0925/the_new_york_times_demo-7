@@ -1,0 +1,34 @@
+{
+  "name": "instanews-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robhhr/instanews-app.git"
+  },
+  "author": "Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robhhr/instanews-app/issues"
+  },
+  "homepage": "https://github.com/robhhr/instanews-app#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.1.7",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-prettyerror": "^1.2.1",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

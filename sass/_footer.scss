@@ -1,0 +1,12 @@
+  /* Footer */
+  footer {
+    color: $footer-color;
+    text-align: center;
+    @include desktop {
+      text-align: left;
+      padding-left: $global * 5;
+    }
+    p {
+      padding: ($global * 2.5) 0;
+    }
+  }

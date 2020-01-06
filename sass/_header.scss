@@ -1,0 +1,57 @@
+/* Header */
+.intro-webpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease-in-out 0.25s;
+    &.default-size {
+      height: $full-size - 15;
+    }
+    @include tablet {
+      flex-direction: row;
+    }
+    @include desktop {
+      justify-content: flex-start;
+      padding-left: $global * 5;
+    }
+    .nyt-logo {
+      &.logo-size {
+      width: $global * 15;
+      height: $global * 15;
+      @include tablet {
+        width: $global * 14;
+        height: $global * 14;
+        padding: 0 ($global * 2) 0 0;
+      }
+      @include desktop {
+        width: $global * 15;
+        height: $global * 15;
+      }
+    }
+    }
+    p {
+      padding: $global 0;
+    }
+    .selector {
+      text-align: center;
+      padding-bottom: 15px;
+      @include tablet {
+        text-align: left;
+      }
+      .dropdown-section {
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+    }}
+    .preload {
+      display: none;
+      align-self: center;
+      width: $global * 2.5;
+      height: $global * 2.5;
+      padding-top: $global;
+      @include tablet {
+        align-self: center;
+      }
+    }
+  }

@@ -1,0 +1,37 @@
+html, body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    background-color: $background;
+    color: $font-color;
+    box-sizing: border-box;
+    font-size: $font-size;
+    max-width: 100%;
+    img { 
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  /* Header on-change classes */
+.new-size {
+  height: $header-mobile;
+  @include tablet {
+      height: $header-tablet;
+  }
+  @include desktop {
+      height: $header-desktop;
+  }
+}
+
+.new-logo {
+  width: $global * 7;
+  height: $global * 7;
+  padding: ($global + 5) 0 0 0;
+  @include tablet {
+      padding: 0 ($global * 3.5) 0 0;
+  }
+  @include desktop {
+      padding: 0 ($global * 3.5) 0 0;
+  }
+}
